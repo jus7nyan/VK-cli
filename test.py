@@ -1,6 +1,6 @@
 from vk_cli import vk_api
 
-token = "vk1.a.5q8Ie5tD2NUkRt0bwQ9lQk-gcXLpKUg_MWYsnqrwqp6br-OYA07JdUp7Hq8cZ6nSi2AQnLwoo2CJxbHB2X1updgpuX8dtUaefmpUG3zdMJp4GGjchgWe30B63AUalIqYFnR06whiC7Ktv4N1VY7lob6b40y1pO6m_bKTHAYkrLLmAm_2utNUTDSRZJonW1WRYlKDPubEWxYdZxN9bDu9DQ"
+token = ""
 
 vk = vk_api.API(token)
 a = vk.lrequest("messages.getConversations", count=10)
