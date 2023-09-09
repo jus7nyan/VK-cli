@@ -1,0 +1,16 @@
+#! /usr/bin/python3
+
+import argparse
+
+def main(args):
+    import vk_cli
+    a = vk_cli.vk_cli(args, "./config.json")
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+
+    return parser.parse_args()
+
+if __name__ == "__main__":
+    args = parse_args()
+    main(args)
